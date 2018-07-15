@@ -1,0 +1,44 @@
+.main-nav {
+	width: 555px;
+
+	&__list {
+		width: 555px;
+		justify-content: space-between;
+		padding-top: 77px;
+
+	}
+}
+
+.main-nav__link {
+	color: #ffffff;
+
+	&:hover {
+		color: #48bf72;
+
+		&:active {
+			color: green;
+		}
+	}
+}
+
+// .main-nav__link::after {
+// 				display: inline-block;
+// 				content: '/';
+// 				position: relative;
+// 				left: 50px;
+// 				font-weight: 100;
+
+// 				&:last-child {
+
+// 				}
+// 			}
+
+.main-nav__item::after {
+				display: inline-block;
+				content: '/';
+				position: relative;
+				left: 50px;
+				font-weight: 100; 
+	}
+
+

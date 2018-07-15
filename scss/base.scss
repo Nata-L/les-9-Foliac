@@ -1,0 +1,28 @@
+body {
+	box-sizing: border-box;
+	font-family: $font-family-main;
+	font-size: $font-size-main;
+	font-weight: $font-weight-main;
+	color: $color-main;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	font-family: inherit;
+}
+
+ul, li, p {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
